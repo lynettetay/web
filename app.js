@@ -78,7 +78,7 @@ function Upload(sData)
 
     $.ajax({
         type: 'POST',
-        url: 'http://localhost:800/api/values',
+        url: 'http://192.168.2.103:800/api/values',
         data: xValue,
         dataType: "json",
         contentType: 'application/x-www-form-urlencoded',
